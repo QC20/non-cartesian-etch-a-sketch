@@ -3,10 +3,10 @@
 Break free from the confines of Cartesian coordinates! With the Non-Cartesian Etch-A-Sketch, one knob dictates the angle while the other controls the radius.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QC20/non-cartesian-etch-a-sketch/057926b13d3962f396d204209dc39b16b10abe2a/RoundEtchASketch.png" alt="Non-Cartesian Etch-A-Sketch" width="80%" height="80%">
+  <img src="https://raw.githubusercontent.com/QC20/non-cartesian-etch-a-sketch/057926b13d3962f396d204209dc39b16b10abe2a/RoundEtchASketch.png" alt="Round-faced Etch-A-Sketch" width="50%" height="50%">
 </p>
 <p align="center">
-  Non-Cartesian Etch-A-Sketch
+  Round-faced Etch-A-Sketch
 </p>
 
  ## Overview
@@ -25,8 +25,9 @@ Break free from the confines of Cartesian coordinates! With the Non-Cartesian Et
 
 This browser-based simulation of a polar coordinate Etch-A-Sketch offers an interactive experience:
 
-- **Control Knobs**: Use the arrow keys to manipulate the knobs. Press up or down to adjust the radius and left or right to change the angle.
-- **Shake to Erase**: Shake your device to erase the sketch and start anew.
+- **Control Knobs**: Use the arrow keys to manipulate the knobs. Press *UP* or *DOWN* to adjust the radius and *LEFT* or *RIGHT* to change the angle.
+- **Shake to Erase**: Shake your device to erase the sketch and start anew. If you're on a laptop or desktop computer, go ahead and pull on the Etch-A-Sketch to erase its contents.  
+- **Spin it around**: By pressing *X* or *Z*, you can spin the Etch-A-Sketch around its own axis.
 
 ## Features
 
