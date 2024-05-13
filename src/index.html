@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polar Coordinate Etch-a-Sketch - mitxela.com</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #main {
+            margin:auto;
+            width:464px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div id="mxmain">
-        <a href="https://mitxela.com/projects/concepts"><img onload="this.style.opacity=1;" src="/img/titles/mitxela_dot_com-65.png" title="Back to Concepts" alt="Back to Concepts" /></a>
-        <h1>Polar Coordinate Etch-a-Sketch</h1>
-        <p>19 Nov 2015<br><b>Progress: Demo</b></p>
-        <p>Escape the Cartesian system! One knob controls angle, the other controls radius.</p>
-        <div style='margin:auto;width:464px;'>
-            <div id=plc><img src="/img/uploads/RoundEtchASketch.jpg" alt="Round etch-a-sketch"><br>[ Enable Javascript to play ]</div>
-            <canvas id="etch" width="464" height="464" style='position:relative;display:none;'></canvas>
+    <div id="main">
+        <div>
+            <div id="plc">
+                <img src="/img/uploads/RoundEtchASketch.jpg" alt="Round etch-a-sketch"><br>
+                [ Enable Javascript to play ]
+            </div>
+            <canvas id="etch" width="464" height="464" style="position:relative;display:none;"></canvas>
         </div>
-        <p>Above is a browser-based simulation of a polar coordinate etch-a-sketch. Use the arrow keys to control the knobs (up/down for radius, left/right for angle), and shake it using your mouse to erase.</p>
-        <p>Update: added touch screen and accelerometer support. Twizzle the knobs and shake to erase.</p>
-        <nav>
-            <a class="rnd" href="/projects/random" title='random project'>~</a>
-            <span typeof='v:Breadcrumb'><a rel='v:url' property='v:title' href="/">mitxela.com</a></span> &#187; 
-            <span typeof='v:Breadcrumb'><a rel='v:url' property='v:title' href="/projects">Projects</a></span> &#187; 
-            <span typeof='v:Breadcrumb'><a rel='v:url' property='v:title' href="/projects/concepts">Concepts</a></span> &#187;
-            <span typeof='v:Breadcrumb'><a rel='v:url' property='v:title' href="/projects/polar_coordinate_etch-a-sketch">Polar Coordinate Etch-a-Sketch</a></span>
-            <p>Questions? Comments? Check out the <a href="/forum">Forum</a></p>
-            <p><a href="/support">Support mitxela.com</a></p>
-        </nav>
     </div>
     <div style="height:500px;clear:both; background:url(/img/paintloop1.png) repeat-x bottom;"></div>
     <script src="script.js"></script>
