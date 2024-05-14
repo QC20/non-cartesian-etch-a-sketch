@@ -37,3 +37,7 @@ This browser-based simulation of a polar coordinate Etch-A-Sketch offers an inte
 ## Compatibility
 
 The Non-Cartesian Etch-A-Sketch is compatible with modern web browsers and devices. Whether you're using a desktop computer, laptop, tablet, or smartphone, you can enjoy this simulation on a wide range of platforms.
+
+## Acknowledgement 
+
+I would like to express my gratitude to [mitxela](https://mitxela.com) for their innovative work on the Polar Coordinate Etch-a-Sketch project. Upon encountering their project, I was truly inspired by its creativity and ingenuity. It motivated me to embark on my own journey to recreate and modernize this concept. While I have replicated the background photo, the code for my version was developed independently. Thank you, mitxela, for sparking this creative endeavor!

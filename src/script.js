@@ -83,7 +83,7 @@ function draw() {
   // Check if the position has changed significantly and fill a circle if so
   if (Math.abs(px - x) + Math.abs(py - y) > 10) {
     ctx.beginPath();
-    ctx.arc(232, 232, 155, 0, 6.283185307179586);
+    ctx.arc(232, 232, 155, 0, Math.TAU);
     ctx.fill();
   }
   px = x;
@@ -179,5 +179,5 @@ if (window.DeviceMotionEvent) {
 
 // Function to calculate the magnitude of acceleration
 function pythag(a) {
-  return Math.sqrt(a.x * a.x + a.y * a.y + a.z * a.z);
+  return Math.sqrt(a.x^2 + a.y^2 + a.z^2);
 }
