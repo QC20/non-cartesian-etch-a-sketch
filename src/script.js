@@ -168,16 +168,11 @@ etch.addEventListener("touchmove", function(e) {
 
 // Accelerometer event listener for device motion
 if (window.DeviceMotionEvent) {
-  window.addEventListener('devicemotion', function(e) {
-    if (pythag(e.accelerationIncludingGravity) > 14 || pythag(e.acceleration) > 4) {
-      ctx.beginPath();
-      ctx.arc(232, 232, 155, 0, Math.TAU);
-      ctx.fill();
+  window.addEventListener('devicemotion', function(e){
+    if (pythag(e.accelerationIncludingGravity)>14 || pythag(e.acceleration)>4) {
+      ctx.beginPath();ctx.arc(232,232,155,0,6.283185307179586);ctx.fill();
     }
   }, false);
 }
 
-// Function to calculate the magnitude of acceleration
-function pythag(a) {
-  return Math.sqrt(a.x^2 + a.y^2 + a.z^2);
-}
+function pythag(a){return Math.sqrt(a.x*a.x+a.y*a.y+a.z*a.z);}
